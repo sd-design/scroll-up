@@ -1,0 +1,19 @@
+html, body{margin:0; padding: 0;}
+.container{min-width:1024px; max-width: 1150px;margin: 0 auto;padding: 0;}
+div{padding: 20px; margin: 0;}
+.block-1{
+    height: 570px; background: rgba(131, 200, 100, .7);
+}
+.block-2{
+    height: 580px; background: rgba(238, 203, 87, 0.7);
+}
+.block-3{
+    height: 600px; background: rgba(150, 61, 223, 0.7);
+}
+.block-4{
+    height: 570px; background: rgba(61, 199, 223, 0.7);
+}
+
+.btn-up{display: block;border-radius: 5px; position:fixed;right:70px; bottom: 70px;width:100px;background: rgba(74, 173, 190, 0.8);color: #fff; text-align: center; transition: opacity 1s;opacity: 1;}
+.btn-up.hidden{display: none; opacity: 0;}
+.btn-up:hover{opacity: .6;cursor: pointer;}
